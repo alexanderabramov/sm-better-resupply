@@ -5,14 +5,9 @@ return PlaceObj('ModDef', {
 	'id', "TryamnR",
 	'steam_id', "1349810398",
 	'author', "chippydip",
-	'version', 14,
-	'lua_revision', 228672,
-	'code', {
-		"Code/AntiCopy.lua",
-		"Code/Cargo.lua",
-		"Code/Passengers.lua",
-		"Code/TemplateHelpers.lua",
-	},
-	'saved', 1522988032,
+	'version', 15,
+	'lua_revision', 235636,
+	'code', {"Code/AntiCopy.lua","Code/Cargo.lua","Code/Passengers.lua","Code/TemplateHelpers.lua"},
+	'saved', 1538333189,
 	'TagInterface', true,
 })
