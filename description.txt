@@ -1,0 +1,31 @@
+Improvements to the cargo and passenger resupply UI.
+
+[h1]Cargo[/h1]
+[list]
+[*]New column shows how much of each resource/rover/prefab your colony currently has.
+[*]Resource numbers are color-coded for how long the current supply plus shipment will last
+[list]
+[*]White when infinite (production >= consumption + maintenance)
+[*]Red when less than 5 sols
+[*]Yellow when less than 10 sols
+[*]Green otherwise
+[/list]
+[*]Resource tooltips include current resource usage and runway until stockpiles are exhausted.
+[/list]
+
+[h1]Passengers[/h1]
+[list]
+[*]Interests and Demographics summary of selected applicants added on the left.
+[*]Applicant selections are no longer cleared if you go back to the filter. Currently selected applicants will always be shown even if they no longer match the filter.
+[*]Individual filter critera can now be clicked to review all applicants with that trait. The rest of the filter criteria will be used to sort the applicants. Beware: thumbs down on other criteria will not prevent them from showing up in this view.
+[/list]
+
+[i]Want to make sure that Genius or Celebrity is included? Just click on those traits to show matching applicants and thumbs them up. Need to also bring 3 Engineers and a Scientist? Click on those filter criteria to see only applicants with those specialties to select. Now it's easier than ever to pick exactly who you want to bring to Mars![/i]
+
+[url=https://survivingmars.curseforge.com/projects/better-resupply]CurseForge Download[/url]
+
+[h1]Changes: April 5th[/h1]
+[list]
+[*]Removed the "Current Stock" line from cargo tooltips now that it's included by the base game.
+[*]Applicants that wouldn't normally be shown in the review pool will now be displayed in RED.
+[/list]
