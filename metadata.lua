@@ -7,7 +7,7 @@ return PlaceObj('ModDef', {
 	'author', "chippydip",
 	'version', 15,
 	'lua_revision', 235636,
-	'code', {"Code/AntiCopy.lua","Code/Cargo.lua","Code/Passengers.lua","Code/TemplateHelpers.lua"},
+	'code', {"Code/AntiCopy.lua","Code/Passengers.lua","Code/TemplateHelpers.lua"},
 	'saved', 1538333189,
 	'TagInterface', true,
 })
