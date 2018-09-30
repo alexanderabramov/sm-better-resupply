@@ -177,7 +177,7 @@ function OnMsg.ClassesBuilt()
                     local categories = {"Age Group", "Specialization", "Gender"}
                     for _, cat in ipairs(categories) do
                         local added = false
-                        for _, trait in ipairs(DataInstances.Trait) do
+                        for _, trait in pairs(TraitPresets) do
                             local count = traits[trait.name]
                             if count and cat == trait.category and not g_HiddenTraits[trait.name] 
                                     and IsTraitAvailable(trait, UICity, "unlocked") then
@@ -193,7 +193,7 @@ function OnMsg.ClassesBuilt()
                     
                     -- add rare traits
                     local added = false
-                    for _, trait in ipairs(DataInstances.Trait) do
+                    for _, trait in pairs(TraitPresets) do
                         local count = traits[trait.name]
                         if count and trait.rare and not g_HiddenTraits[trait.name] 
                                 and IsTraitAvailable(trait, UICity, "unlocked") then
